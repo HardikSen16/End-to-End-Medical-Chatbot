@@ -1,4 +1,4 @@
-# End-to-End-Medical-Chatbot
+# End-to-end-Medical-Chatbot-using-Llama2
 
 # How to run?
 ### STEPS:
@@ -43,6 +43,13 @@ llama-2-7b-chat.ggmlv3.q4_0.bin
 
 ## From the following link:
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+
+```ini
+download and install openvino toolkit
+
+## from the following link:
+https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/download.html?PACKAGE=OPENVINO_BASE&VERSION=v_2024_2_0&OP_SYSTEM=WINDOWS&DISTRIBUTION=ARCHIVE
+
 ```
 
 ```bash
@@ -58,3 +65,16 @@ python app.py
 Now,
 ```bash
 open up localhost:
+```
+
+
+### Techstack Used:
+
+- Python
+- LangChain
+- Flask
+- Meta Llama2
+- openvino
+- Pinecone
+
+
